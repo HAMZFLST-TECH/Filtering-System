@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ECOMMERCE STORE</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+      <div class="" id="container">
+          <button id="Clothing">Clothing</button>
+          <button id="Accessories">Accessories</button>
+          <button id="Footwear">Footwear</button>
+          <button id="Sports">Sports</button>
+          <button id="AllProducts">AllProducts</button>
+        </div>
+        <div id="display"></div>
+
+
+        <footer class="footer">
+        <p>© <span id="currentYear"></span> Made by HAMZFLST.TECH</p>
+           <!-- Social Links -->
+    <div class="footer-social">
+        <a href="https://www.tiktok.com/@hamzflst.tech" target="_blank" aria-label="Twitter">
+            <img src="assets/icons/tiktok.png" alt="TikTok">
+        </a>
+        <a href="https://www.linkedin.com/in/hamzflst" target="_blank" aria-label="LinkedIn">
+            <img src="assets/icons/linkedin.png" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/HAMZFLST-TECH" target="_blank" aria-label="GitHub">
+            <img src="assets/icons/github.png" alt="GitHub">
+        </a>
+        <a href="https://www.instagram.com/hamzflst.tech" target="_blank" aria-label="Instagram">
+            <img src="assets/icons/instagram.png" alt="Instagram">
+        </a>
+    </div>
+    </footer>
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
