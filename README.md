@@ -1,6 +1,9 @@
 # ⚡ Minimalist Filter System
 
 > **0 Dependencies. 100% Custom.** A high-performance filtering engine built with pure logic and modern CSS.
+>
+>  <img src="https://img.shields.io/badge/license-MIT-purple">  <img src="https://img.shields.io/badge/made%20with-HTML%20CSS%20JS-orange">
+
 
 ---
 
@@ -38,6 +41,9 @@ No npm install required. No build steps.
 
 ## 📸 Preview
   <a href="https://hamzflst-tech.github.io/Filtering-System/"><strong>View Live Demo »</strong></a>
+
+## 👤 Author
+HAMZFLST.TECH
   
 Made with ❤️ and Vanilla JS.
 
